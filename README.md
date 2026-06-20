@@ -3,6 +3,7 @@
 > Analyzed telecom customer data to identify churn patterns and predict churn risk in real time using Python, SQL, Power BI, and Flask.
 
 ---
+## Live Demo: https://customerchurnanalysis-fyxgpqrtrqfzqew4jhq3wq.streamlit.app/
 
 ## Highlights
 
