@@ -1,0 +1,47 @@
+# Model files (too large for GitHub — generate locally using train_model.py)
+model/churn_model.pkl
+model/encoders.pkl
+model/feature_names.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+# The raw Kaggle download is NOT committed (download it yourself, see
+# data/README.md). The cleaned dataset IS committed on purpose: the
+# Streamlit Cloud deployment (streamlit_app.py) trains the model on cold
+# start from this file, since it can't run train_model.py for you.
+*.xls
+*.xlsx
+data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+!data/cleaned_churn_data.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
