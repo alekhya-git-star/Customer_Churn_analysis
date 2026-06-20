@@ -21,7 +21,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "data", "cleaned_churn_data.csv")
+DATA_PATH = os.path.join(BASE_DIR, "customer_churn.csv")
 MODEL_DIR = os.path.join(BASE_DIR, "model")
 
 CAT_COLS = [
